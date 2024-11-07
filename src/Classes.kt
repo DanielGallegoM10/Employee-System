@@ -63,9 +63,6 @@ class Designer(): Employee(){
         println("Annual Bonus: $bonus")
     }
 
-    override fun evaluatePerformance(){
-        println("Evaluate Designer")
-    }
 }
 
 interface Evaluable{
