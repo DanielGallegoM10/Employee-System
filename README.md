@@ -1,13 +1,13 @@
-El proposito principal de este proyecto es la utilizacion de las clases y sus metodos mediante herencia, 
-polimorfismos e interfaces.
+The main purpose of this project is the use of classes and their methods through inheritance,
+polymorphisms and interfaces.
 
-Se crea una clase padre llamada Employee de la que extienden Developer, Manager y Designer.
-Se sobreescriben los atributos y metodos necesarios en esas clases.
-Se implementa la interface Evaluable en la clase Employee, de esta manera todo tipo de empleados pueden usarla.
+A parent class called Employee is created from which Developer, Manager and Designer extend.
+The necessary attributes and methods are overwritten in these classes.
+The Evaluable interface is implemented in the Employee class, in this way all types of employees can use it.
 
-El usuario puede crear objetos de las clases y acceder a sus metodos.
+The user can create objects of the classes and access their methods.
 
-El lenguaje usado es Kotlin.
+The language used is Kotlin.
 
-Para ver el diagrama de clases entre en el directorio docs.
-Para ver las clases y main del proyecto entre en src.
+To see the class diagram, go to the docs directory.
+To see the classes and main of the project, go to src.
