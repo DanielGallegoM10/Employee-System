@@ -1,7 +1,4 @@
-abstract class Employee: Evaluable{
-    abstract val name: String
-    abstract val salary: Double
-
+abstract class Employee(val name: String, val salary: Double): Evaluable{
     abstract fun work()
     abstract fun calculateAnnualBonus()
 
@@ -14,9 +11,7 @@ abstract class Employee: Evaluable{
     }
 }
 
-class Developer(): Employee(){
-    override val name = "Developer name"
-    override val salary = 1000.00
+class Developer(name: String, salary: Double): Employee(name, salary){
 
     override fun work(){
         println("Write and revision code")
@@ -32,9 +27,7 @@ class Developer(): Employee(){
     }
 }
 
-class Manager(): Employee(){
-    override val name = "Manager name"
-    override val salary = 1200.00
+class Manager(name: String, salary: Double): Employee(name, salary){
 
     override fun work(){
         println("Supervising the team and planning projects")
@@ -50,9 +43,7 @@ class Manager(): Employee(){
     }
 }
 
-class Designer(): Employee(){
-    override val name = "Designer name"
-    override val salary = 950.00
+class Designer(name: String, salary: Double): Employee(name, salary){
 
     override fun work(){
         println("Creating and optimizing visual design")
